@@ -1,69 +1,14 @@
 .footer {
-	padding: 60px 0 90px;
-	background: #f4f5f4;
-}
-.footer__paysystems {
-	display: flex;
-	padding: 24px;
-	flex-direction: row;
-	justify-content: space-between;
-	border-radius: 8px;
-	background: #fff;
-	align-items: center;
-	margin-bottom: 32px;
-}
-.footer__paysystems-list {
-	display: flex;
-	align-items: center;
-	gap: 20px;
-}
-.footer__head {
-	display: flex;
-	justify-content: space-between;
-	gap: 16px;
-	margin-bottom: 36px;
-}
-.footer__logo {
+	background-color: rgb(62, 62, 62);
+	padding: 50px 0;
 	font-size: 32px;
-	color: #000;
-	font-weight: 700;
-}
-.footer__socials {
-	display: flex;
-	align-items: center;
-	gap: 16px;
-	margin-bottom: 36px;
-}
-.footer__socials-icon {
-	width: 46px;
-	height: 46px;
-}
-.footer__socials-icon img {
-	border-radius: 13px;
-}
-.footer__main {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 80px;
-}
-.footer__caption {
-	color: #490b9f;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 120%;
-	font-weight: 600;
-}
-.footer__nav {
-	margin-top: 16px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-.footer__nav a {
-	color: #000;
-	letter-spacing: -0.5px;
-}
-.footer__copyright {
-	margin-top: 48px;
-	color: #afb2bf;
+    color: #fff;
+
+	h1 {
+		font-size: 32px;
+	}
+
+	@media (max-width: 1200px) {
+		font-size: 26px;
+	}
 }
